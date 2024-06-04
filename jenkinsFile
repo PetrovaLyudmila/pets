@@ -27,10 +27,5 @@ pipeline
             }
         }
     }
-post{
-always
-}
-emailext body: 'Summary', subject: 'Pipeline status', to: 'ludmila.petrova1988@gmail.com'
-}
-  }
+
 }
